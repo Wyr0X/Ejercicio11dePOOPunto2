@@ -190,7 +190,7 @@
             this.porBordeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ComboBoxBorde});
             this.porBordeToolStripMenuItem.Name = "porBordeToolStripMenuItem";
-            this.porBordeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.porBordeToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.porBordeToolStripMenuItem.Text = "Por borde";
             // 
             // ComboBoxBorde
@@ -205,7 +205,7 @@
             this.porRellenoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ComboBoxRelleno});
             this.porRellenoToolStripMenuItem.Name = "porRellenoToolStripMenuItem";
-            this.porRellenoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.porRellenoToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.porRellenoToolStripMenuItem.Text = "Por relleno";
             // 
             // ComboBoxRelleno
@@ -259,6 +259,7 @@
             this.ColCentro.HeaderText = "Centro";
             this.ColCentro.Name = "ColCentro";
             this.ColCentro.ReadOnly = true;
+            this.ColCentro.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // ColRadio
             // 
@@ -266,6 +267,7 @@
             this.ColRadio.HeaderText = "Radio";
             this.ColRadio.Name = "ColRadio";
             this.ColRadio.ReadOnly = true;
+            this.ColRadio.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // ColBorde
             // 
@@ -273,6 +275,7 @@
             this.ColBorde.HeaderText = "Borde";
             this.ColBorde.Name = "ColBorde";
             this.ColBorde.ReadOnly = true;
+            this.ColBorde.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // ColRelleno
             // 
@@ -280,6 +283,7 @@
             this.ColRelleno.HeaderText = "Relleno";
             this.ColRelleno.Name = "ColRelleno";
             this.ColRelleno.ReadOnly = true;
+            this.ColRelleno.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // ColPerimetro
             // 
@@ -287,6 +291,7 @@
             this.ColPerimetro.HeaderText = "Perímetro";
             this.ColPerimetro.Name = "ColPerimetro";
             this.ColPerimetro.ReadOnly = true;
+            this.ColPerimetro.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // ColSuperficie
             // 
@@ -294,6 +299,7 @@
             this.ColSuperficie.HeaderText = "Superficie";
             this.ColSuperficie.Name = "ColSuperficie";
             this.ColSuperficie.ReadOnly = true;
+            this.ColSuperficie.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // FormListaCircunferencias
             // 
